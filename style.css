@@ -1,0 +1,106 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/07/16/37/wood-591631_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;  /* Horizontally center the content */
+    align-items: center;      /* Vertically center the content */
+    padding: 20px;
+}
+
+.content-box {
+    max-width: 800px; /* Adjust this value to control the width of the content box */
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;  /* Center the heading and subtitle */
+}
+
+.content-box h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.content-box h2 {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.first {
+    text-align: justify; /* Justify the text */
+    padding: 20px;
+    background-color: white;
+}
+
+footer {
+    background-color: #222;
+    color: #d3d4d6;
+    text-align: center;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+footer a {
+    color: #bcaa96;
+}
+
+footer a:hover {
+    color: #3c8453;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .socials img {
+    width: 32px;
+    height: 32px;
+}
+a.btn {
+    background-color: #f0dcd0;
+    color: black;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a.btn:hover {
+    background-color: #bcaa96;
+    transform: translateY(-2px);
+}
+
+a.btn:active {
+    background-color: #947b6c;
+    transform: translateY(0);
+}
+
+a.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(60, 133, 67, 0.5);
+}
+

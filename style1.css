@@ -1,0 +1,225 @@
+/* Import Caveat font */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+/* Import Dancing Script font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+/* Caveat font styling */
+.caveat-title {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* GLOBAL STYLES -------------------- */
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #f6f6f6;
+  background-size: cover;
+  margin: 0;
+}
+
+.content-wrapper {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 30px;
+}
+
+/* Links ------------------ */
+a {
+  color: #3c8453;
+}
+
+a:hover {
+  color: #bcaabc;
+}
+
+.btn {
+  background: #3c8543;
+  color: #f6f6f6;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+/* HOME ---------------------- */
+.home {
+  background-image: url(../starter-files/placeholder-images/bg-home-office-studio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home .content-wrapper {
+  background-color: antiquewhite;
+}
+
+/* RESUME -------------------- */
+.resume header::before {
+  background-image: url(bg-home-office-studio.jpg);
+  background-size: cover;
+  display: block;
+  height: 375px;
+  content: "";
+}
+
+.resume-section {
+  margin-bottom: 50px;
+}
+
+.resume-section h2 {
+  border-bottom: 2px dashed #d3d4d6;
+}
+
+/* Profile Summary ------------------- */
+
+/* Projects ------------------------- */
+
+/* Education ----------------- */
+
+/* Certifications ------------------------- */
+
+/* Technical Skills --------------------- */
+
+/* Achievements ------------------------- */
+
+/* Footer ---------------------- */
+footer {
+  background-color: #222;
+  color: #d3d4d6;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #bcaa96;
+}
+
+footer a:hover {
+  color: #3c8453;
+}
+
+.socials {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+
+.socials li {
+  margin: 0;
+}
+
+.socials img {
+  width: 32px;
+  height: 32px;
+}
+
+.robot,
+.Eat,
+.Achievements,
+.ted,
+.football {
+  width: 1.0in;
+  height: 1.0in;
+  float: left;
+  margin-right: 10px;
+}
+
+.line {
+  border-top: 2px dotted black;
+}
+
+.download-pdf {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: #3c8453;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.download-pdf:hover {
+  background-color: #bcaabc;
+}
+
+.summary {
+  text-align: center;
+  background-color: beige;
+}
+
+.profile:hover {
+  color: black;
+}
+
+a.btn {
+  background-color: #f0dcd0;
+  color: black;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a.btn:hover {
+  background-color: #bcaa96;
+  transform: translateY(-2px);
+}
+
+a.btn:active {
+  background-color: #947b6c;
+  transform: translateY(0);
+}
+
+a.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(60, 133, 67, 0.5);
+}
+
+/* Apply Caveat font to all subheadings (h2, h3) */
+h2,
+h3 {
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+}
+
+/* Apply Dancing Script font to all other texts */
+.dancing-script-unique-text-400 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dancing-script-unique-text-700 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
