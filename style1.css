@@ -223,3 +223,110 @@ h3 {
   font-weight: 700;
   font-style: normal;
 }
+
+/* RESPONSIVE STYLES -------------------- */
+
+/* Media query for devices with a max-width of 1200px (for large laptops and smaller screens) */
+@media screen and (max-width: 1200px) {
+  .content-wrapper {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .socials {
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+
+/* Media query for devices with a max-width of 800px (tablets, smaller laptops) */
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+
+  .resume header::before {
+    height: 250px;
+  }
+
+  .content-wrapper {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .summary {
+    font-size: 14px;
+  }
+
+  h2,
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .robot,
+  .Eat {
+    width: 80px;
+    height: 80px;
+  }
+
+  .line {
+    margin: 10px 0;
+  }
+}
+
+/* Media query for devices with a max-width of 600px (mobile phones) */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 13px;
+  }
+
+  .resume header::before {
+    height: 200px;
+  }
+
+  .content-wrapper {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .caveat-title {
+    font-size: 1.5rem;
+  }
+
+  .resume-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .summary {
+    font-size: 13px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .socials {
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .download-pdf {
+    top: 15px;
+    left: 15px;
+    padding: 8px 16px;
+  }
+
+  .robot,
+  .Eat {
+    width: 70px;
+    height: 70px;
+  }
+}
